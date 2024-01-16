@@ -1,0 +1,121 @@
+.masterflip {
+    display: flex;
+    justify-content: center;
+}
+
+.flippies {
+    display: inline-block;
+}
+
+hr {
+    margin: 3px auto;
+    height: 5px;
+    width: 90%;
+    background-color: #F3160C;
+    border-color: #F3160C;
+}
+
+.tituloArt {
+    height: 0%;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+    display: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.descArt {
+    display: center;
+    justify-content: center;
+    text-align: left;
+    height: 45%;
+    width: 100%;
+    font-size: 18px;
+    padding: 0px 1%;
+    margin: 0px;
+}
+
+.flip-card {
+    padding: 0px;
+    background-color: transparent;
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+    border-radius: 10px;
+}
+
+.flip-card-inner {
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    border-radius: 10px;
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    border-radius: 15px;
+    font-family: 'Mooli', sans-serif;
+    background-color: #040273;
+    color: transparent;
+    transform: rotateY(180deg);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: auto;
+    padding: 0px;
+    margin: 15px;
+}
+
+a.nav:link {
+    color: red;
+    text-decoration: none;
+}
+
+a.nav:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.nav:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a.nav:active {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+.cartasInfoPadre {
+    display: flex;
+}
