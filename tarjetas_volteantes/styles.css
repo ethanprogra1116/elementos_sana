@@ -115,6 +115,23 @@ a.nav:hover {
 
 .cartasInfoPadre {
     display: flex;
+    justify-content: center;
+}
+
+.cartasInfoPadre ul {
+    padding: 0px;
+    text-align: left;
+    width: 80%;
+}
+
+.listItem {
+    color: white;
+    text-decoration: none;
+}
+
+
+.listItem:hover {
+    color: #F3160C;
 }
 
 .cartasTitulo {
