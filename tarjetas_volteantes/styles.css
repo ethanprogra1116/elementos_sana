@@ -26,16 +26,7 @@ hr {
     align-items: center;
 }
 
-.descArt {
-    display: center;
-    justify-content: center;
-    text-align: left;
-    height: 45%;
-    width: 100%;
-    font-size: 18px;
-    padding: 0px 1%;
-    margin: 0px;
-}
+
 
 .flip-card {
     padding: 0px;
@@ -96,26 +87,37 @@ hr {
     margin: 15px;
 }
 
-a.nav:link {
-    color: red;
-    text-decoration: none;
+
+
+a.nav {
+    color: white;
 }
 
-a.nav:visited {
+/* a.nav:link {
+    color: red;
+    text-decoration: none;
+} */
+
+/* a.nav:visited {
     color: white;
     text-decoration: none;
-}
+} */
 
 a.nav:hover {
     color: red;
     text-decoration: none;
 }
 
-a.nav:active {
+/* a.nav:active {
     color: lightslategray;
     text-decoration: none;
-}
+} */
 
 .cartasInfoPadre {
     display: flex;
+}
+
+.cartasTitulo {
+    color: white;
+    text-decoration: none;
 }
