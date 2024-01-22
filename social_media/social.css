@@ -12,6 +12,14 @@ div.redes_emergentes .instagram {
     width: 50px;
 }
 
+div.redes_emergentes .instagram:hover {
+    cursor: pointer;
+}
+
 div.redes_emergentes .facebook {
     width: 50px;
+}
+
+div.redes_emergentes .facebook:hover {
+    cursor: pointer;
 }

@@ -1,3 +1,7 @@
 La prueba final esta en esta página, eso es lo que se subio a SANA
 
 https://codepen.io/ethanprogra1116/pen/MWxmpVY 
+
+
+
+Aunque lo que esta en sana esta en la carpeta scripts/ventanita_oficial.js
