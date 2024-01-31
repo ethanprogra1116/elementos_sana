@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita el scroll mientras se muestra el video */
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Fondo negro para un efecto de transición más suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Asegura que el video esté en la parte superior */
+}
+
+#intro-video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-content {
+    display: none; /* Oculta el contenido principal al principio */
+}
