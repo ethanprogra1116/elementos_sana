@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Esto de abajo es lo que hay que poner en SANA -->
     <div class="video-container" id="video-container">
-        <video id="intro-video" autoplay controls>
+        <video id="intro-video" autoplay controls muted playsinline>
             <source src="assets/Ivan_EEPAT.mp4" type="video/mp4">
             Tu navegador no es compatible con videos html 5
         </video>
+        <button id="skipVideo">Saltar video <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+            <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+          </svg></button>
     </div>
+    <!-- Aqui termina SANA -->
 
     <div class="main-content" id="main-content">
         <!-- Tu contenido principal va aquí -->
         <h1>Bienvenido a mi página web</h1>
         <p>Contenido de la página...</p>
     </div>
-
     
 </body>
 <script src="../scripts/video.js"></script>

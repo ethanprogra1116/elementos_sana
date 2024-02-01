@@ -29,7 +29,7 @@ imagenWhatsApp.addEventListener('click', function() {
 // Función que devuelve una promesa que se resolverá cuando exista el elemento con el ID proporcionado
 function esperarElementoExistente(id) {
   return new Promise(resolve => {
-      const verificarExistencia = () => {
+      const verificarExistencia = ()=>{
           const elemento = document.getElementById(id);
           if (elemento) {
               resolve(elemento);
@@ -44,7 +44,7 @@ function esperarElementoExistente(id) {
 
 // Función asíncrona principal
 async function iniciar() {
-  try {
+
       // Esperar a que exista el elemento con el ID "logo_whatsapp_contacto"
       const imagenWhatsApp = await esperarElementoExistente('logo_whatsapp_contacto');
 
@@ -67,9 +67,6 @@ async function iniciar() {
       });
 
       console.log('Elemento encontrado y event listener agregado.');
-  } catch (error) {
-      console.error('Error:', error.message);
-  }
 }
 
 // Llamar a la función asíncrona principal
