@@ -43,9 +43,15 @@ hr {
 }
 
 .flip-card#full_width {
+    font-size: 17px;
     width: 1110px;
-    height: 350px;
+    height: 366px;
     perspective: 10000px;
+}
+
+.flip-card#full_width img{
+    width: 1110px;
+    height: 366px;
 }
 
 
@@ -67,7 +73,7 @@ hr {
 }
 
 .flip-card#full_width:hover .flip-card-inner {
-    transform: rotateX(180deg);
+    transform: rotateX(180deg); /* Si le ponemos el valor en 180 se voltea para el otro lado */
 }
 
 .flip-card-front,
@@ -98,10 +104,6 @@ hr {
 }
 
 .flip-card#full_width .flip-card-back {
-    transform: rotateX(180deg);
-}
-
-#full_width.flip-card-back {
     transform: rotateX(180deg);
 }
 
