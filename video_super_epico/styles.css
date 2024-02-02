@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+section#container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#video_telmex {
+    background-color: black;
+    width: 100%;
+    height: 80%;
+}
+
+#nav_principal {
+    display: flex;
+    align-items: center;
+    background-color: #2e3d9c;
+    width: 100%;
+    height: 15%;
+    border-bottom: 10px solid red;
+}
+
+#nav_principal .logo{
+    width: 200px;
+    margin: 0px 50px;
+}
+
+#nav_principal ul{
+    text-transform: uppercase;
+    font-family: Helvetica;
+    width: 70%;
+    display: flex;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
