@@ -7,12 +7,7 @@ section#container{
     height: 100vh;
 }
 
-#video_telmex {
-    background-color: black;
-    width: 100%;
-    height: 80%;
-}
-
+/* Estilos del nav */
 #nav_principal {
     display: flex;
     align-items: center;
@@ -36,4 +31,12 @@ section#container{
     list-style: none;
     text-decoration: none;
     justify-content: space-evenly;
+}
+
+
+/* Estilos del video Telmex - SANA */
+#video_telmex {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
 }
