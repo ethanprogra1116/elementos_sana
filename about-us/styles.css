@@ -139,6 +139,11 @@ nav {
     cursor: pointer;
 }
 
+.segundo_grid ul li a{
+    color: white;
+    text-decoration: none;
+}
+
 .segundo_grid ul li.active {
     color: white ;
     background-color: var(--azul-eepat);
